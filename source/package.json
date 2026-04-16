@@ -1,0 +1,53 @@
+{
+  "name": "wilder-science-assessment",
+  "private": true,
+  "version": "2026-3-9.001",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test",
+    "test:all": "npm test && npm run test:e2e"
+  },
+  "dependencies": {
+    "chart.js": "^4.4.0",
+    "docx": "^9.6.0",
+    "dompurify": "^3.3.3",
+    "react": "^19.2.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@playwright/test": "^1.59.1",
+    "@tailwindcss/postcss": "^4.2.1",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "@testing-library/user-event": "^14.6.1",
+    "@types/node": "^24.10.1",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.1.1",
+    "autoprefixer": "^10.4.27",
+    "eslint": "^9.39.1",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-refresh": "^0.4.24",
+    "globals": "^16.5.0",
+    "html2canvas": "^1.4.1",
+    "jsdom": "^29.0.2",
+    "jspdf": "^4.2.0",
+    "lucide-react": "^0.575.0",
+    "postcss": "^8.5.6",
+    "rollup-plugin-visualizer": "^7.0.1",
+    "tailwindcss": "^4.2.1",
+    "typescript": "~5.9.3",
+    "typescript-eslint": "^8.48.0",
+    "vite": "^7.3.1",
+    "vitest": "^4.1.3",
+    "xlsx": "^0.18.5"
+  }
+}

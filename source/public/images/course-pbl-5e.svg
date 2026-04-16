@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="1000" height="1000">
+  <defs>
+    <linearGradient id="brandBlue" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4A6FE3"/>
+      <stop offset="100%" style="stop-color:#3B5FD9"/>
+    </linearGradient>
+    
+    <linearGradient id="warmYellow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFD54F"/>
+      <stop offset="100%" style="stop-color:#FFB800"/>
+    </linearGradient>
+    
+    <linearGradient id="engageGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFB800"/>
+      <stop offset="100%" style="stop-color:#FF8F00"/>
+    </linearGradient>
+    
+    <linearGradient id="exploreGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4CAF50"/>
+      <stop offset="100%" style="stop-color:#2E7D32"/>
+    </linearGradient>
+    
+    <linearGradient id="explainGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3B5FD9"/>
+      <stop offset="100%" style="stop-color:#1A237E"/>
+    </linearGradient>
+    
+    <linearGradient id="elaborateGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#9C27B0"/>
+      <stop offset="100%" style="stop-color:#6A1B9A"/>
+    </linearGradient>
+    
+    <linearGradient id="evaluateGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00BCD4"/>
+      <stop offset="100%" style="stop-color:#00838F"/>
+    </linearGradient>
+    
+    <linearGradient id="centerGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#3B5FD9"/>
+      <stop offset="50%" style="stop-color:#4A6FE3"/>
+      <stop offset="100%" style="stop-color:#3B5FD9"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="1000" height="1000" fill="#F5F9FC"/>
+  
+  <!-- 装饰圆环 -->
+  <circle cx="500" cy="500" r="420" fill="none" stroke="#E3F2FD" stroke-width="40"/>
+  <circle cx="500" cy="500" r="320" fill="none" stroke="#E8F5E9" stroke-width="30"/>
+  <circle cx="500" cy="500" r="220" fill="none" stroke="#FFF8E1" stroke-width="20"/>
+  
+  <!-- 外围课程主题 -->
+  <!-- 自然观察 - 顶部 -->
+  <g transform="translate(500, 80)">
+    <ellipse cx="0" cy="0" rx="80" ry="35" fill="#8BC34A" opacity="0.9"/>
+    <text x="0" y="6" font-size="14" fill="#FFF" text-anchor="middle" font-weight="bold">自然观察</text>
+    <!-- 小图标 -->
+    <g transform="translate(-50, -8)">
+      <circle cx="0" cy="0" r="8" fill="#FFF" opacity="0.5"/>
+      <circle cx="0" cy="0" r="4" fill="#FFF"/>
+    </g>
+  </g>
+  
+  <!-- 生态探索 - 右上 -->
+  <g transform="translate(780, 200)">
+    <ellipse cx="0" cy="0" rx="75" ry="32" fill="#66BB6A" opacity="0.9"/>
+    <text x="0" y="5" font-size="13" fill="#FFF" text-anchor="middle" font-weight="bold">生态探索</text>
+  </g>
+  
+  <!-- 科学实验 - 右侧 -->
+  <g transform="translate(880, 500)">
+    <ellipse cx="0" cy="0" rx="70" ry="30" fill="#3B5FD9" opacity="0.9"/>
+    <text x="0" y="5" font-size="13" fill="#FFF" text-anchor="middle" font-weight="bold">科学实验</text>
+  </g>
+  
+  <!-- 户外考察 - 右下 -->
+  <g transform="translate(780, 800)">
+    <ellipse cx="0" cy="0" rx="75" ry="32" fill="#7CB342" opacity="0.9"/>
+    <text x="0" y="5" font-size="13" fill="#FFF" text-anchor="middle" font-weight="bold">户外考察</text>
+  </g>
+  
+  <!-- 项目创作 - 底部 -->
+  <g transform="translate(500, 920)">
+    <ellipse cx="0" cy="0" rx="80" ry="35" fill="#9C27B0" opacity="0.9"/>
+    <text x="0" y="6" font-size="14" fill="#FFF" text-anchor="middle" font-weight="bold">项目创作</text>
+  </g>
+  
+  <!-- 团队协作 - 左下 -->
+  <g transform="translate(220, 800)">
+    <ellipse cx="0" cy="0" rx="75" ry="32" fill="#FFB800" opacity="0.9"/>
+    <text x="0" y="5" font-size="13" fill="#FFF" text-anchor="middle" font-weight="bold">团队协作</text>
+  </g>
+  
+  <!-- 成果展示 - 左侧 -->
+  <g transform="translate(120, 500)">
+    <ellipse cx="0" cy="0" rx="70" ry="30" fill="#E91E63" opacity="0.9"/>
+    <text x="0" y="5" font-size="13" fill="#FFF" text-anchor="middle" font-weight="bold">成果展示</text>
+  </g>
+  
+  <!-- 思维训练 - 左上 -->
+  <g transform="translate(220, 200)">
+    <ellipse cx="0" cy="0" rx="75" ry="32" fill="#00BCD4" opacity="0.9"/>
+    <text x="0" y="5" font-size="13" fill="#FFF" text-anchor="middle" font-weight="bold">思维训练</text>
+  </g>
+  
+  <!-- 中心 - 荒野科学课程体系 -->
+  <g transform="translate(500, 500)">
+    <!-- 中心圆 -->
+    <circle cx="0" cy="0" r="120" fill="url(#centerGrad)"/>
+    <circle cx="0" cy="0" r="100" fill="none" stroke="#FFF" stroke-width="2" opacity="0.3"/>
+    
+    <!-- 中心文字 -->
+    <text x="0" y="-20" font-size="18" fill="#FFF" text-anchor="middle" font-weight="bold">荒野科学</text>
+    <text x="0" y="5" font-size="16" fill="#FFF" text-anchor="middle">课程体系</text>
+    <text x="0" y="35" font-size="12" fill="#FFF" text-anchor="middle" opacity="0.8">PBL + 5E</text>
+    
+    <!-- 小装饰 -->
+    <circle cx="-60" cy="-60" r="8" fill="#FFB800" opacity="0.6"/>
+    <circle cx="60" cy="-60" r="6" fill="#8BC34A" opacity="0.6"/>
+    <circle cx="60" cy="60" r="7" fill="#FFF" opacity="0.4"/>
+    <circle cx="-60" cy="60" r="5" fill="#FFB800" opacity="0.5"/>
+  </g>
+  
+  <!-- 5E 环节 - 第一环 -->
+  
+  <!-- Engage 激趣 - 顶部 -->
+  <g transform="translate(500, 260)">
+    <!-- 连接到中心 -->
+    <line x1="0" y1="40" x2="0" y2="120" stroke="url(#engageGrad)" stroke-width="3" stroke-dasharray="5,3"/>
+    <!-- 节点 -->
+    <circle cx="0" cy="0" r="50" fill="url(#engageGrad)"/>
+    <circle cx="0" cy="0" r="42" fill="none" stroke="#FFF" stroke-width="1.5" opacity="0.4"/>
+    <!-- 图标 - 灯泡 -->
+    <g transform="translate(-12, -18)">
+      <ellipse cx="12" cy="8" rx="10" ry="12" fill="#FFF" opacity="0.9"/>
+      <rect x="8" y="20" width="8" height="6" fill="#FFF" opacity="0.7"/>
+      <path d="M10 0 L12 -8 L14 0" fill="#FFF" opacity="0.6"/>
+    </g>
+    <!-- 文字 -->
+    <text x="0" y="28" font-size="10" fill="#FFF" text-anchor="middle" font-weight="bold">Engage</text>
+    <!-- 外部标签 -->
+    <rect x="-35" y="55" width="70" height="24" rx="6" fill="#FFF" stroke="url(#engageGrad)" stroke-width="2"/>
+    <text x="0" y="71" font-size="11" fill="#FF8F00" text-anchor="middle" font-weight="bold">激趣</text>
+  </g>
+  
+  <!-- Explore 探索 - 右上 -->
+  <g transform="translate(690, 380)">
+    <line x1="-35" y1="25" x2="-100" y2="70" stroke="url(#exploreGrad)" stroke-width="3" stroke-dasharray="5,3"/>
+    <circle cx="0" cy="0" r="50" fill="url(#exploreGrad)"/>
+    <circle cx="0" cy="0" r="42" fill="none" stroke="#FFF" stroke-width="1.5" opacity="0.4"/>
+    <!-- 图标 - 放大镜 -->
+    <g transform="translate(-12, -15)">
+      <circle cx="8" cy="8" r="10" fill="none" stroke="#FFF" stroke-width="3"/>
+      <line x1="15" y1="15" x2="25" y2="25" stroke="#FFF" stroke-width="3" stroke-linecap="round"/>
+    </g>
+    <text x="0" y="28" font-size="10" fill="#FFF" text-anchor="middle" font-weight="bold">Explore</text>
+    <rect x="-35" y="55" width="70" height="24" rx="6" fill="#FFF" stroke="url(#exploreGrad)" stroke-width="2"/>
+    <text x="0" y="71" font-size="11" fill="#2E7D32" text-anchor="middle" font-weight="bold">探索</text>
+  </g>
+  
+  <!-- Explain 解释 - 右下 -->
+  <g transform="translate(690, 620)">
+    <line x1="-35" y1="-25" x2="-100" y2="-70" stroke="url(#explainGrad)" stroke-width="3" stroke-dasharray="5,3"/>
+    <circle cx="0" cy="0" r="50" fill="url(#explainGrad)"/>
+    <circle cx="0" cy="0" r="42" fill="none" stroke="#FFF" stroke-width="1.5" opacity="0.4"/>
+    <!-- 图标 - 对话气泡 -->
+    <g transform="translate(-15, -15)">
+      <rect x="0" y="0" width="30" height="22" rx="5" fill="#FFF" opacity="0.9"/>
+      <polygon points="10,22 15,30 20,22" fill="#FFF" opacity="0.9"/>
+      <line x1="5" y1="7" x2="25" y2="7" stroke="#3B5FD9" stroke-width="2"/>
+      <line x1="5" y1="13" x2="20" y2="13" stroke="#3B5FD9" stroke-width="2"/>
+    </g>
+    <text x="0" y="28" font-size="10" fill="#FFF" text-anchor="middle" font-weight="bold">Explain</text>
+    <rect x="-35" y="55" width="70" height="24" rx="6" fill="#FFF" stroke="url(#explainGrad)" stroke-width="2"/>
+    <text x="0" y="71" font-size="11" fill="#1A237E" text-anchor="middle" font-weight="bold">解释</text>
+  </g>
+  
+  <!-- Elaborate 拓展 - 左下 -->
+  <g transform="translate(310, 620)">
+    <line x1="35" y1="-25" x2="100" y2="-70" stroke="url(#elaborateGrad)" stroke-width="3" stroke-dasharray="5,3"/>
+    <circle cx="0" cy="0" r="50" fill="url(#elaborateGrad)"/>
+    <circle cx="0" cy="0" r="42" fill="none" stroke="#FFF" stroke-width="1.5" opacity="0.4"/>
+    <!-- 图标 - 扩展箭头 -->
+    <g transform="translate(-15, -15)">
+      <line x1="15" y1="15" x2="5" y2="5" stroke="#FFF" stroke-width="3" stroke-linecap="round"/>
+      <line x1="15" y1="15" x2="25" y2="5" stroke="#FFF" stroke-width="3" stroke-linecap="round"/>
+      <line x1="15" y1="15" x2="5" y2="25" stroke="#FFF" stroke-width="3" stroke-linecap="round"/>
+      <line x1="15" y1="15" x2="25" y2="25" stroke="#FFF" stroke-width="3" stroke-linecap="round"/>
+      <circle cx="15" cy="15" r="4" fill="#FFF"/>
+    </g>
+    <text x="0" y="28" font-size="10" fill="#FFF" text-anchor="middle" font-weight="bold">Elaborate</text>
+    <rect x="-35" y="55" width="70" height="24" rx="6" fill="#FFF" stroke="url(#elaborateGrad)" stroke-width="2"/>
+    <text x="0" y="71" font-size="11" fill="#6A1B9A" text-anchor="middle" font-weight="bold">拓展</text>
+  </g>
+  
+  <!-- Evaluate 评价 - 左上 -->
+  <g transform="translate(310, 380)">
+    <line x1="35" y1="25" x2="100" y2="70" stroke="url(#evaluateGrad)" stroke-width="3" stroke-dasharray="5,3"/>
+    <circle cx="0" cy="0" r="50" fill="url(#evaluateGrad)"/>
+    <circle cx="0" cy="0" r="42" fill="none" stroke="#FFF" stroke-width="1.5" opacity="0.4"/>
+    <!-- 图标 - 评价星星 -->
+    <g transform="translate(-12, -15)">
+      <polygon points="12,0 15,8 24,9 17,15 19,24 12,19 5,24 7,15 0,9 9,8" fill="#FFF" opacity="0.9"/>
+    </g>
+    <text x="0" y="28" font-size="10" fill="#FFF" text-anchor="middle" font-weight="bold">Evaluate</text>
+    <rect x="-35" y="55" width="70" height="24" rx="6" fill="#FFF" stroke="url(#evaluateGrad)" stroke-width="2"/>
+    <text x="0" y="71" font-size="11" fill="#00838F" text-anchor="middle" font-weight="bold">评价</text>
+  </g>
+  
+  <!-- 连接弧线 -->
+  <path d="M500 310 Q600 350 640 380" stroke="#CCC" stroke-width="2" fill="none" stroke-dasharray="8,4" opacity="0.4"/>
+  <path d="M640 420 Q680 500 640 580" stroke="#CCC" stroke-width="2" fill="none" stroke-dasharray="8,4" opacity="0.4"/>
+  <path d="M640 620 Q600 650 500 690" stroke="#CCC" stroke-width="2" fill="none" stroke-dasharray="8,4" opacity="0.4"/>
+  <path d="M500 690 Q400 650 360 620" stroke="#CCC" stroke-width="2" fill="none" stroke-dasharray="8,4" opacity="0.4"/>
+  <path d="M360 580 Q320 500 360 420" stroke="#CCC" stroke-width="2" fill="none" stroke-dasharray="8,4" opacity="0.4"/>
+  <path d="M360 380 Q400 350 500 310" stroke="#CCC" stroke-width="2" fill="none" stroke-dasharray="8,4" opacity="0.4"/>
+  
+  <!-- 标题 -->
+  <text x="500" y="50" font-size="24" fill="#3B5FD9" text-anchor="middle" font-weight="bold">PBL + 5E 课程体系</text>
+  <text x="500" y="75" font-size="12" fill="#666" text-anchor="middle">Project-Based Learning with 5E Instructional Model</text>
+  
+  <!-- 装饰元素 -->
+  <g fill="#FFB800" opacity="0.3">
+    <circle cx="50" cy="50" r="5"/>
+    <circle cx="950" cy="50" r="4"/>
+    <circle cx="50" cy="950" r="6"/>
+    <circle cx="950" cy="950" r="5"/>
+  </g>
+  
+  <!-- 小装饰 - 叶子 -->
+  <g fill="#8BC34A" opacity="0.4">
+    <ellipse cx="100" cy="300" rx="8" ry="4" transform="rotate(30, 100, 300)"/>
+    <ellipse cx="900" cy="700" rx="7" ry="3.5" transform="rotate(-20, 900, 700)"/>
+  </g>
+  
+  <!-- 边框 -->
+  <rect x="10" y="10" width="980" height="980" fill="none" stroke="#3B5FD9" stroke-width="2" opacity="0.1" rx="15"/>
+  
+  <!-- 底部说明 -->
+  <text x="500" y="970" font-size="11" fill="#999" text-anchor="middle">荒野科学 WILDER Education Model</text>
+</svg>

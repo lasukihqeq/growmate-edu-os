@@ -1,0 +1,10 @@
+.git
+node_modules
+dist
+.vercel
+.vscode
+.idea
+*.log
+.DS_Store
+备份
+.vibe_images

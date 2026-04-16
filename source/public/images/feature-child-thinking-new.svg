@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+  <defs>
+    <linearGradient id="skyBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#F0F7FF"/>
+      <stop offset="100%" style="stop-color:#FDF8E8"/>
+    </linearGradient>
+    
+    <linearGradient id="brandBlue" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4A6FE3"/>
+      <stop offset="100%" style="stop-color:#3B5FD9"/>
+    </linearGradient>
+    
+    <linearGradient id="warmYellow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFD54F"/>
+      <stop offset="100%" style="stop-color:#FFB800"/>
+    </linearGradient>
+    
+    <linearGradient id="leafGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8BC34A"/>
+      <stop offset="100%" style="stop-color:#558B2F"/>
+    </linearGradient>
+    
+    <linearGradient id="treeTrunk" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#6D4C41"/>
+      <stop offset="50%" style="stop-color:#8D6E63"/>
+      <stop offset="100%" style="stop-color:#6D4C41"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="1200" height="800" fill="url(#skyBg)"/>
+  
+  <!-- 柔和光斑 -->
+  <circle cx="900" cy="150" r="120" fill="#FFB800" opacity="0.1"/>
+  <circle cx="200" cy="100" r="80" fill="#3B5FD9" opacity="0.08"/>
+  
+  <!-- 草地 -->
+  <ellipse cx="600" cy="780" rx="800" ry="150" fill="#8BC34A" opacity="0.4"/>
+  <ellipse cx="600" cy="800" rx="750" ry="100" fill="#7CB342" opacity="0.5"/>
+  
+  <!-- 大树 -->
+  <g transform="translate(200, 100)">
+    <!-- 树干 -->
+    <path d="M100 550 Q80 400 90 250 Q95 180 85 120 L145 120 Q135 180 140 250 Q150 400 130 550 Z" 
+          fill="url(#treeTrunk)" stroke="#5D4037" stroke-width="2"/>
+    <!-- 树根 -->
+    <path d="M70 550 Q30 580 20 620" stroke="#8D6E63" stroke-width="15" fill="none" stroke-linecap="round"/>
+    <path d="M160 550 Q200 580 210 620" stroke="#8D6E63" stroke-width="15" fill="none" stroke-linecap="round"/>
+    <!-- 树冠 -->
+    <ellipse cx="115" cy="80" rx="130" ry="110" fill="#6B8E23"/>
+    <ellipse cx="80" cy="100" rx="70" ry="60" fill="#7CB342"/>
+    <ellipse cx="150" cy="90" rx="80" ry="70" fill="#8BC34A"/>
+    <ellipse cx="115" cy="40" rx="60" ry="50" fill="#9CCC65"/>
+    <!-- 树叶细节 -->
+    <ellipse cx="60" cy="60" rx="35" ry="30" fill="#7CB342" opacity="0.8"/>
+    <ellipse cx="170" cy="50" rx="40" ry="35" fill="#8BC34A" opacity="0.8"/>
+  </g>
+  
+  <!-- 树下阴影 -->
+  <ellipse cx="315" cy="680" rx="180" ry="40" fill="#5D4037" opacity="0.1"/>
+  
+  <!-- 孩子 - 坐姿阅读 -->
+  <g transform="translate(280, 450)">
+    <!-- 腿 -->
+    <path d="M0 180 Q-30 200 -60 210 Q-80 215 -90 230" stroke="#4A6FE3" stroke-width="25" fill="none" stroke-linecap="round"/>
+    <path d="M30 180 Q60 200 90 210 Q110 215 120 230" stroke="#4A6FE3" stroke-width="25" fill="none" stroke-linecap="round"/>
+    <!-- 鞋子 -->
+    <ellipse cx="-95" cy="235" rx="20" ry="12" fill="#5D4037"/>
+    <ellipse cx="125" cy="235" rx="20" ry="12" fill="#5D4037"/>
+    <!-- 身体 -->
+    <ellipse cx="15" cy="130" rx="55" ry="70" fill="url(#brandBlue)"/>
+    <!-- 手臂 -->
+    <path d="M-40 100 Q-60 80 -50 50" stroke="#FFCCBC" stroke-width="18" fill="none" stroke-linecap="round"/>
+    <path d="M70 100 Q90 80 100 60" stroke="#FFCCBC" stroke-width="18" fill="none" stroke-linecap="round"/>
+    <!-- 书本 -->
+    <g transform="translate(30, 40)">
+      <rect x="-50" y="-5" width="100" height="70" rx="3" fill="#FFF" stroke="#DDD" stroke-width="1"/>
+      <line x1="0" y1="-5" x2="0" y2="65" stroke="#DDD" stroke-width="1"/>
+      <!-- 书页内容 -->
+      <rect x="-45" y="5" width="40" height="3" fill="#3B5FD9" opacity="0.3"/>
+      <rect x="-45" y="15" width="35" height="2" fill="#999" opacity="0.3"/>
+      <rect x="-45" y="22" width="38" height="2" fill="#999" opacity="0.3"/>
+      <rect x="-45" y="29" width="30" height="2" fill="#999" opacity="0.3"/>
+      <rect x="5" y="5" width="40" height="3" fill="#FFB800" opacity="0.3"/>
+      <rect x="5" y="15" width="35" height="2" fill="#999" opacity="0.3"/>
+      <rect x="5" y="22" width="38" height="2" fill="#999" opacity="0.3"/>
+      <rect x="5" y="29" width="32" height="2" fill="#999" opacity="0.3"/>
+      <!-- 书中的小插图 -->
+      <circle cx="25" cy="45" r="12" fill="#8BC34A" opacity="0.5"/>
+      <circle cx="-25" cy="45" r="12" fill="#3B5FD9" opacity="0.3"/>
+    </g>
+    <!-- 头部 -->
+    <circle cx="15" cy="50" r="50" fill="#FFCCBC"/>
+    <!-- 头发 -->
+    <path d="M-35 30 Q-40 0 -15 -10 Q15 -20 40 -10 Q60 0 55 30 Q40 15 15 20 Q-10 15 -35 30" 
+          fill="#5D4037"/>
+    <!-- 刘海 -->
+    <path d="M-25 20 Q0 5 25 20" fill="#5D4037"/>
+    <!-- 眼睛 - 向上看，思考状态 -->
+    <ellipse cx="-5" cy="45" rx="8" ry="10" fill="#FFF"/>
+    <ellipse cx="30" cy="45" rx="8" ry="10" fill="#FFF"/>
+    <circle cx="-5" cy="42" r="5" fill="#3B5FD9"/>
+    <circle cx="30" cy="42" r="5" fill="#3B5FD9"/>
+    <circle cx="-3" cy="40" r="2" fill="#FFF"/>
+    <circle cx="32" cy="40" r="2" fill="#FFF"/>
+    <!-- 眉毛 - 思考表情 -->
+    <path d="M-15 35 Q-5 32 5 35" stroke="#5D4037" stroke-width="2" fill="none"/>
+    <path d="M22 35 Q32 32 42 35" stroke="#5D4037" stroke-width="2" fill="none"/>
+    <!-- 微笑 -->
+    <path d="M5 70 Q15 78 25 70" stroke="#8D6E63" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <!-- 腮红 -->
+    <ellipse cx="-22" cy="60" rx="10" ry="6" fill="#FFAB91" opacity="0.4"/>
+    <ellipse cx="48" cy="60" rx="10" ry="6" fill="#FFAB91" opacity="0.4"/>
+  </g>
+  
+  <!-- 思维气泡 - 知识图谱 -->
+  <g transform="translate(500, 80)">
+    <!-- 主气泡 -->
+    <ellipse cx="200" cy="150" rx="280" ry="130" fill="#FFF" stroke="#3B5FD9" stroke-width="2" opacity="0.9"/>
+    <!-- 连接气泡 -->
+    <circle cx="100" cy="250" r="20" fill="#FFF" stroke="#3B5FD9" stroke-width="1.5" opacity="0.8"/>
+    <circle cx="70" cy="290" r="12" fill="#FFF" stroke="#3B5FD9" stroke-width="1" opacity="0.6"/>
+    <circle cx="50" cy="315" r="8" fill="#FFF" stroke="#3B5FD9" stroke-width="1" opacity="0.4"/>
+    
+    <!-- 知识图谱节点 -->
+    <!-- 中心节点 - 问号 -->
+    <circle cx="200" cy="150" r="35" fill="url(#warmYellow)" stroke="#FFB800" stroke-width="2"/>
+    <text x="200" y="160" font-size="40" fill="#5D4037" text-anchor="middle" font-weight="bold">?</text>
+    
+    <!-- 连接线 -->
+    <line x1="200" y1="115" x2="150" y2="70" stroke="#3B5FD9" stroke-width="2" opacity="0.6"/>
+    <line x1="200" y1="115" x2="250" y2="70" stroke="#3B5FD9" stroke-width="2" opacity="0.6"/>
+    <line x1="165" y1="150" x2="90" y2="130" stroke="#3B5FD9" stroke-width="2" opacity="0.6"/>
+    <line x1="235" y1="150" x2="310" y2="130" stroke="#3B5FD9" stroke-width="2" opacity="0.6"/>
+    <line x1="200" y1="185" x2="150" y2="230" stroke="#3B5FD9" stroke-width="2" opacity="0.6"/>
+    <line x1="200" y1="185" x2="250" y2="230" stroke="#3B5FD9" stroke-width="2" opacity="0.6"/>
+    
+    <!-- 自然元素节点 -->
+    <!-- 蝴蝶节点 -->
+    <circle cx="150" cy="70" r="25" fill="#E3F2FD" stroke="#3B5FD9" stroke-width="1.5"/>
+    <g transform="translate(150, 70) scale(0.4)">
+      <path d="M0 0 Q-30 -20 -35 10 Q-30 30 0 15" fill="#3B5FD9"/>
+      <path d="M0 0 Q30 -20 35 10 Q30 30 0 15" fill="#3B5FD9"/>
+      <ellipse cx="0" cy="8" rx="3" ry="12" fill="#5D4037"/>
+    </g>
+    
+    <!-- 叶子节点 -->
+    <circle cx="250" cy="70" r="25" fill="#E8F5E9" stroke="#7CB342" stroke-width="1.5"/>
+    <path d="M250 55 Q265 70 250 85 Q235 70 250 55" fill="#8BC34A"/>
+    <line x1="250" y1="58" x2="250" y2="82" stroke="#558B2F" stroke-width="1"/>
+    
+    <!-- 星星节点 -->
+    <circle cx="90" cy="130" r="22" fill="#FFF8E1" stroke="#FFB800" stroke-width="1.5"/>
+    <polygon points="90,112 94,124 107,124 97,132 101,145 90,137 79,145 83,132 73,124 86,124" fill="#FFB800"/>
+    
+    <!-- 花朵节点 -->
+    <circle cx="310" cy="130" r="22" fill="#FFF3E0" stroke="#FF8F00" stroke-width="1.5"/>
+    <g transform="translate(310, 130)">
+      <circle cx="0" cy="-8" r="6" fill="#FFB800"/>
+      <circle cx="8" cy="0" r="6" fill="#FFB800"/>
+      <circle cx="0" cy="8" r="6" fill="#FFB800"/>
+      <circle cx="-8" cy="0" r="6" fill="#FFB800"/>
+      <circle cx="0" cy="0" r="5" fill="#FF8F00"/>
+    </g>
+    
+    <!-- 放大镜节点 -->
+    <circle cx="150" cy="230" r="22" fill="#E3F2FD" stroke="#3B5FD9" stroke-width="1.5"/>
+    <g transform="translate(150, 230)">
+      <circle cx="-3" cy="-3" r="10" fill="none" stroke="#3B5FD9" stroke-width="2"/>
+      <line x1="5" y1="5" x2="12" y2="12" stroke="#3B5FD9" stroke-width="2.5"/>
+    </g>
+    
+    <!-- 试管节点 -->
+    <circle cx="250" cy="230" r="22" fill="#F3E5F5" stroke="#9C27B0" stroke-width="1.5"/>
+    <g transform="translate(250, 230)">
+      <rect x="-5" y="-12" width="10" height="20" rx="5" fill="none" stroke="#9C27B0" stroke-width="2"/>
+      <rect x="-3" y="0" width="6" height="8" rx="3" fill="#9C27B0" opacity="0.5"/>
+    </g>
+    
+    <!-- 次级连接 -->
+    <line x1="150" y1="95" x2="120" y2="108" stroke="#FFB800" stroke-width="1.5" opacity="0.5"/>
+    <line x1="250" y1="95" x2="280" y2="108" stroke="#8BC34A" stroke-width="1.5" opacity="0.5"/>
+    <line x1="112" y1="130" x2="128" y2="208" stroke="#3B5FD9" stroke-width="1" opacity="0.4" stroke-dasharray="4,2"/>
+    <line x1="288" y1="130" x2="272" y2="208" stroke="#9C27B0" stroke-width="1" opacity="0.4" stroke-dasharray="4,2"/>
+  </g>
+  
+  <!-- 飘落的元素 -->
+  <!-- 书页 -->
+  <g transform="translate(850, 200)" opacity="0.6">
+    <rect x="0" y="0" width="30" height="40" rx="2" fill="#FFF" stroke="#DDD" stroke-width="1" transform="rotate(15)"/>
+    <line x1="5" y1="8" x2="25" y2="6" stroke="#999" stroke-width="1" opacity="0.5"/>
+    <line x1="6" y1="15" x2="24" y2="13" stroke="#999" stroke-width="1" opacity="0.5"/>
+  </g>
+  
+  <!-- 飘落的叶子 -->
+  <g fill="#8BC34A" opacity="0.7">
+    <ellipse cx="950" cy="300" rx="15" ry="8" transform="rotate(45, 950, 300)"/>
+    <ellipse cx="1000" cy="450" rx="12" ry="6" transform="rotate(-30, 1000, 450)"/>
+    <ellipse cx="1100" cy="350" rx="10" ry="5" transform="rotate(60, 1100, 350)"/>
+  </g>
+  
+  <!-- 光点装饰 -->
+  <g fill="#FFB800">
+    <circle cx="600" cy="150" r="4" opacity="0.6"/>
+    <circle cx="750" cy="200" r="3" opacity="0.5"/>
+    <circle cx="850" cy="100" r="5" opacity="0.4"/>
+    <circle cx="1050" cy="180" r="4" opacity="0.5"/>
+  </g>
+  
+  <!-- 小昆虫 -->
+  <g transform="translate(900, 600)">
+    <!-- 小蚂蚁 -->
+    <ellipse cx="0" cy="0" rx="8" ry="5" fill="#5D4037"/>
+    <ellipse cx="10" cy="-2" rx="5" ry="4" fill="#6D4C41"/>
+    <circle cx="14" cy="-4" r="3" fill="#6D4C41"/>
+    <!-- 触角 -->
+    <path d="M16 -6 Q20 -12 18 -15" stroke="#5D4037" stroke-width="1" fill="none"/>
+    <path d="M18 -6 Q22 -12 24 -14" stroke="#5D4037" stroke-width="1" fill="none"/>
+  </g>
+  
+  <!-- 装饰边框 -->
+  <rect x="15" y="15" width="1170" height="770" fill="none" stroke="#3B5FD9" stroke-width="2" opacity="0.15" rx="8"/>
+  
+  <!-- 角落装饰 -->
+  <g transform="translate(30, 30)">
+    <circle cx="0" cy="0" r="15" fill="url(#brandBlue)" opacity="0.2"/>
+    <path d="M-5 0 L5 0 M0 -5 L0 5" stroke="#3B5FD9" stroke-width="2" opacity="0.5"/>
+  </g>
+  <g transform="translate(1170, 770)">
+    <circle cx="0" cy="0" r="15" fill="url(#warmYellow)" opacity="0.2"/>
+    <path d="M-5 0 L5 0 M0 -5 L0 5" stroke="#FFB800" stroke-width="2" opacity="0.5"/>
+  </g>
+</svg>
